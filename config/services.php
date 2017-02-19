@@ -35,4 +35,12 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'botline' => [
+        'secret' => env('LINE_SECRET'),
+        'access' => env('LINE_ACCESS'),
+    ],
+
+    'cleverbot' => [
+        'api_key' => env('CLEVERBOT_KEY'),
+    ],
 ];
